@@ -1,3 +1,23 @@
-.intro{
+.intro {
   margin-top: 200px;
+  margin-bottom: 250px;
+}
+.features-wrapper{
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+.features-item{
+  text-align: center;
+  width: 30%;
+  padding: 200px 10px 30px; 
+  background-position: center 20px;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  .features-item-text{
+    width: 80%; 
+    line-height: 1.4;
+    margin: 0 auto;
+  }
 }
